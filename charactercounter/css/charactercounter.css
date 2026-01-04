@@ -1,0 +1,45 @@
+.maindiv{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.submitiondiv{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.sub_submitiondiv{
+    display: flex;
+    flex-direction: row;
+}
+
+.submitbutton {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+
+  padding: 6px 12px;
+  width: 100px;
+  min-width: 80px;
+  margin-left: 60.8%;
+
+  background-color: #464FEB;
+  color: white;
+
+  border: 1px solid #464FEB;
+  border-radius: 4px;
+
+  cursor: pointer;
+  outline: none;
+}
+
+.countlabel{
+    align-self: flex-end;
+}
+
+.inputs{
+    width: 1000px;
+    height: 100px;
+}
